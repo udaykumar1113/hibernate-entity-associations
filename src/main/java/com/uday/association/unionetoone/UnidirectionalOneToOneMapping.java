@@ -2,7 +2,7 @@ package com.uday.association.unionetoone;
 
 import com.uday.association.unionetoone.entities.Credential;
 import com.uday.association.unionetoone.entities.User;
-import com.uday.association.unionetoone.util.ConnectionFactory;
+import com.uday.association.util.ConnectionFactory;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
