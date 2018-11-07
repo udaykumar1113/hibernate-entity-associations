@@ -17,5 +17,7 @@
         <property name="connection.autocommit">true</property>
         <mapping class="com.uday.association.unionetoone.entities.Credential"/>
         <mapping class="com.uday.association.unionetoone.entities.User"/>
+        <mapping class="com.uday.association.bionetoone.entities.Credential"/>
+        <mapping class="com.uday.association.bionetoone.entities.User"/>
     </session-factory>
 </hibernate-configuration>
