@@ -19,5 +19,7 @@
         <mapping class="com.uday.association.unionetoone.entities.User"/>
         <mapping class="com.uday.association.bionetoone.entities.Credential"/>
         <mapping class="com.uday.association.bionetoone.entities.User"/>
+        <mapping class="com.uday.association.unionetomany.entities.Account"/>
+        <mapping class="com.uday.association.unionetomany.entities.Transaction"/>
     </session-factory>
 </hibernate-configuration>
