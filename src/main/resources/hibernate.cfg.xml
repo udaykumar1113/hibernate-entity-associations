@@ -22,6 +22,6 @@
         <mapping class="com.uday.association.unionetomany.entities.Account"/>
         <mapping class="com.uday.association.unionetomany.entities.Transaction"/>
         <mapping class="com.uday.association.bionetomany.entities.Account"/>
-        <mapping class="com.uday.association.bionetomany.entities.Transaction"/>
+        <mapping class="com.uday.association.bionetomany.entities.Transactions"/>
     </session-factory>
 </hibernate-configuration>
