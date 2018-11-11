@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="BUDGET")
+@Table(name="BUDGET_JOIN")
 public class Budget {
 
     @Id
@@ -21,4 +21,28 @@ public class Budget {
     private List<Transactions> transactions=new ArrayList<Transactions>();
 
     private String budgetName;
+
+    public int getBudgetId() {
+        return budgetId;
+    }
+
+    public void setBudgetId(int budgetId) {
+        this.budgetId = budgetId;
+    }
+
+    public List<Transactions> getTransactions() {
+        return transactions;
+    }
+
+    public void setTransactions(List<Transactions> transactions) {
+        this.transactions = transactions;
+    }
+
+    public String getBudgetName() {
+        return budgetName;
+    }
+
+    public void setBudgetName(String budgetName) {
+        this.budgetName = budgetName;
+    }
 }
