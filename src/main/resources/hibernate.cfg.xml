@@ -28,5 +28,7 @@
         <mapping class="com.uday.association.bionetomanyjointable.entities.Budget"/>
         <mapping class="com.uday.association.unimanytomany.entities.FIN_ACCOUNT"/>
         <mapping class="com.uday.association.unimanytomany.entities.FIN_USER"/>
+        <mapping class="com.uday.association.bimanytomany.entities.BankAccount"/>
+        <mapping class="com.uday.association.bimanytomany.entities.BankUser"/>
     </session-factory>
 </hibernate-configuration>
