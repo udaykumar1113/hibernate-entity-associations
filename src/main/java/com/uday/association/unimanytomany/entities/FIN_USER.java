@@ -12,6 +12,8 @@ public class FIN_USER {
     @Column(name="USER_ID")
     private int userId;
     private String userName;
+
+    @Temporal(TemporalType.DATE)
     private Date lastChangedDate;
 
     public int getUserId() {

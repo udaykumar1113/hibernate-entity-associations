@@ -1,5 +1,7 @@
 package com.uday.association.unimanytomany.entities;
 
+import com.uday.association.unimanytomany.entities.FIN_USER;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
